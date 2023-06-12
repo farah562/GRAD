@@ -1,12 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import razan from "../../images/razan_2.jpg";
-import amani from "../../images/amani.png";
-import bashar from "../../images/bashar.jpg";
-import majdi from "../../images/majdi.png";
-import tasneem from "../../images/tasneem.jpg";
-import farah from "../../images/farah.jpg";
-import issa from "../../images/issa.jpg";
+
 import axios from "axios";
 import { useState, useEffect } from "react";
 
@@ -816,7 +810,7 @@ function About() {
               <div className="mx-auto h-56 w-56 rotate-45 overflow-hidden rounded-[4rem] md:h-40 md:w-40 lg:h-56 lg:w-56">
                 <img
                   className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
-                  src={bashar}
+                  // src={bashar}
                   alt="woman"
                   loading="lazy"
                   width={640}
@@ -825,7 +819,7 @@ function About() {
               </div>
               <div className="pt-4">
                 <h4 className="text-2xl text-amber-700 dark:text-black">
-                  Bashar Alamoush{" "}
+                  Bashar 
                 </h4>
                 <span className="block text-sm text-gray-500">
                   Product owner
@@ -869,7 +863,7 @@ function About() {
               <div className="mx-auto h-56 w-56 rotate-45 overflow-hidden rounded-[4rem] md:h-40 md:w-40 lg:h-56 lg:w-56">
                 <img
                   className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
-                  src={issa}
+                  // src={issa}
                   alt="man"
                   loading="lazy"
                   width={1000}
@@ -879,7 +873,7 @@ function About() {
               <div className="pt-4">
                 <h4 className="text-2xl text-amber-700 dark:text-black">
                   {" "}
-                  Issa Zeidan
+                  Issa 
                 </h4>
                 <span className="block text-sm text-gray-500">
                   Scrum master
@@ -923,7 +917,7 @@ function About() {
               <div className="mx-auto h-56 w-56 rotate-45 overflow-hidden rounded-[4rem] md:h-40 md:w-40 lg:h-56 lg:w-56">
                 <img
                   className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
-                  src={farah}
+                  // src={farah}
                   alt="woman"
                   loading="lazy"
                   width={640}
@@ -932,7 +926,7 @@ function About() {
               </div>
               <div className="pt-4">
                 <h4 className="text-2xl  text-amber-700 dark:text-black">
-                  Farah Almasri
+                  Farah 
                 </h4>
                 <span className="block text-sm text-gray-500">
                   Quality assurance
@@ -982,7 +976,7 @@ function About() {
               <div className="mx-auto h-56 w-56 rotate-45 overflow-hidden rounded-[4rem] md:h-40 md:w-40 lg:h-56 lg:w-56">
                 <img
                   className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
-                  src={majdi}
+                  // src={majdi}
                   alt="woman"
                   loading="lazy"
                   width={640}
@@ -991,7 +985,7 @@ function About() {
               </div>
               <div className="pt-4">
                 <h4 className="text-2xl text-amber-700 dark:text-black">
-                  Majdi Shomali{" "}
+                  Majdi 
                 </h4>
                 <span className="block text-sm text-gray-500">Team member</span>
               </div>
@@ -1033,7 +1027,7 @@ function About() {
               <div className="mx-auto h-56 w-56 rotate-45 overflow-hidden rounded-[4rem] md:h-40 md:w-40 lg:h-56 lg:w-56">
                 <img
                   className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
-                  src={razan}
+                  // src={razan}
                   alt="man"
                   loading="lazy"
                   width={1000}
@@ -1042,7 +1036,7 @@ function About() {
               </div>
               <div className="pt-4">
                 <h4 className="text-2xl text-amber-700 dark:text-black">
-                  Razan Aboushi
+                  Razan 
                 </h4>
                 <span className="block text-sm text-gray-500">Team member</span>
               </div>
@@ -1084,7 +1078,7 @@ function About() {
               <div className="mx-auto h-56 w-56 rotate-45 overflow-hidden rounded-[4rem] md:h-40 md:w-40 lg:h-56 lg:w-56">
                 <img
                   className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
-                  src={amani}
+                  // src={amani}
                   alt="woman"
                   loading="lazy"
                   width={640}
@@ -1093,7 +1087,7 @@ function About() {
               </div>
               <div className="pt-4">
                 <h4 className="text-2xl  text-amber-700 dark:text-black">
-                  Amani AlZyoud{" "}
+                  Amani 
                 </h4>
                 <span className="block text-sm text-gray-500">Team member</span>
               </div>
@@ -1139,7 +1133,7 @@ function About() {
               <div className="mx-auto h-56 w-56 rotate-45 overflow-hidden rounded-[4rem] md:h-40 md:w-40 lg:h-56 lg:w-56">
                 <img
                   className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
-                  src={tasneem}
+                  // src={tasneem}
                   alt="woman"
                   loading="lazy"
                   width={640}
@@ -1148,7 +1142,7 @@ function About() {
               </div>
               <div className="pt-4">
                 <h4 className="text-2xl  text-amber-700 dark:text-black">
-                  Tasneem AL-Jamat
+                  Tasneem 
                 </h4>
                 <span className="block text-sm text-gray-500">Team member</span>
               </div>
